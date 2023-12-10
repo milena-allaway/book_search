@@ -35,7 +35,6 @@ const SignupForm = () => {
       event.preventDefault();
       event.stopPropagation();
     }
-    setValidated(true);
 
     try {
       const { data } = await addUser({
@@ -51,7 +50,7 @@ const SignupForm = () => {
       console.log(user);
       Auth.login(token);
     } catch (err) {
-      console.error(err);
+      console.error(`Signup failed. Error: ${err.message}`);
       setShowAlert(true);
     }
 
