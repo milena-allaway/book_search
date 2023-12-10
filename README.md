@@ -7,4 +7,4 @@ This is a refactored book search engine using an Apollo server and GraphQL.
 * https://www.npmjs.com/package/apollo-server-express
 * https://www.apollographql.com/docs/apollo-server/integrations/mern/
 * https://www.apollographql.com/docs/apollo-server/integrations/mern/
-
+* https://legacy.reactjs.org/docs/hooks-effect.html#effects-with-cleanup
